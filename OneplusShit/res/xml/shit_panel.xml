@@ -28,19 +28,19 @@
 	
     <Preference
         android:key="slider"
-        android:title="@string/slider_op_title"
-        android:summary="@string/slider_op_summary"
+        android:title="@string/notification_slider_category_title"
+        android:summary="@string/notification_slider_category_summary"
         android:persistent="false" >
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.oneplus.shit"
-                android:targetClass="com.oneplus.shit.settings.SliderSettings" />
+                android:targetClass="com.oneplus.shit.settings.ButtonSettingsActivity" />
     </Preference>
 
     <SwitchPreference
         android:key="taptowake"
         android:summary="@string/taptowake_summary"
         android:title="@string/taptowake_title"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:title="@string/category_vibrator">
@@ -78,20 +78,5 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
-
-    <!-- Let's Hide it For Now
-    <PreferenceCategory
-        android:title="@string/display_category">
-        <Preference
-             android:key="device_doze"
-             android:persistent="false"
-             android:title="@string/device_doze_title"
-             android:summary="@string/device_doze_summary">
-             <intent android:action="android.intent.action.MAIN"
-                  android:targetPackage="com.custom.ambient.display"
-                  android:targetClass="com.custom.ambient.display.DozeSettings"/>
-        </Preference>
-    </PreferenceCategory>
-    -->
 
 </PreferenceScreen>

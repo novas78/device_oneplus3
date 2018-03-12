@@ -16,7 +16,7 @@
 
 package com.oneplus.shit.settings;
 
-import com.oneplus.shit.util.NodePreferenceActivity;
+import com.oneplus.shit.settings.utils.NodePreferenceActivity;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -39,7 +39,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.util.Log;
-import com.oneplus.shit.R;
+import com.oneplus.shit.settings.R;
 
 public class ShitPanelSettings extends NodePreferenceActivity {
     public static final String KEY_VIBSTRENGTH = "vib_strength";

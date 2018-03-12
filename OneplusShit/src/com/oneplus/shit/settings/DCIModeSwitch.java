@@ -23,7 +23,7 @@ import android.os.SystemProperties;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceManager;
-import com.oneplus.shit.util.Utils;
+import com.oneplus.shit.settings.utils.Utils;
 
 public class DCIModeSwitch implements OnPreferenceChangeListener {
 

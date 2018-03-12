@@ -30,7 +30,7 @@ import android.widget.TextView;
 import android.os.Bundle;
 import android.util.Log;
 import android.os.Vibrator;
-import com.oneplus.shit.util.Utils;
+import com.oneplus.shit.settings.utils.Utils;
 import com.oneplus.shit.R;
 
 import java.util.List;
