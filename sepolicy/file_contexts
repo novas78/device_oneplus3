@@ -21,3 +21,7 @@
 # Binaries
 /system/bin/ifaadaemon                                          u:object_r:ifaadaemon_exec:s0
 /(vendor|system/vendor)/bin/remosaic_daemon                     u:object_r:remosaic_daemon_exec:s0
+
+#Xtended
+/sys/devices/virtual/graphics/fb0(/.*)?                         u:object_r:sysfs_graphics:s0
+/sys/devices/virtual/timed_output/vibrator/vtg_level            u:object_r:sysfs_vibrator:s0
