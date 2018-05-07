@@ -431,6 +431,11 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service
 
+# Spectrum Manager
+PRODUCT_PACKAGES += \
+    init.spectrum.rc \
+    init.spectrum.sh
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
